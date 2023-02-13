@@ -1,14 +1,182 @@
+/* Paddings and margins */
+.px-5 {
+    padding: 0 5px;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.my-20 {
+    margin: 20px 0;
+}
+
+/* Flex */
+.row {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Text */
+.txt-white {
+    color: #fff;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-small {
+    font-size: 14px;
+}
+
+/* ELements and classes */
 * {
     box-sizing: border-box;
 }
 
-.body {
+body {
     margin: 0;
 }
 
+header {
+    background-color: #cc121d;
+}
+
+header nav {
+    font-size: 13px;
+}
+
+header nav ul {
+    margin: 10px 0;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+header nav ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foto-grande {
+    width: 100%;
+    background-image: url(../img/heroImg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    display: block;
+}
+
+.bg-black-05 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.foto-grande h1 {
+    margin: 10px 0;
+}
+
+.foto-grande h3 {
+    margin: 0;
+}
+
+.foto-grande input[type="text"] {
+    padding: 5px;
+    border: 0;
+    margin: 10px 0;
+    border: 3px solid #fff;
+    width: 35%;
+}
+
+.foto-grande input[type="button"] {
+    padding: 5px;
+    border: 3px solid #fff;
+    margin: 10px 0;
+    background-color: #fcc65c;
+    color: black;
+    font-weight: bold;
+    margin-left: -5px;
+}
+
+.col-3 {
+    width: 28%;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.features h2 {
+    margin: 30px 0;
+}
+
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    background-color: blueviolet;
-    height: 500px;
+}
+
+.container2 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bg-gray {
+    background-color: #eaeaea;
+}
+
+.bg-gray nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bg-gray nav ul li {
+    padding: 5px 0;
+}
+
+.bg-gray nav ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.bg-gray nav ul a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg-gray nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 20px auto;
+}
+
+.left img {
+    margin-right: 5px;
+}
+
+.right img {
+    margin-left: 10px;
 }
